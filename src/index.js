@@ -1,7 +1,7 @@
-const stringify = (query) => {
+const stringify = (params) => {
   let queryString = '';
 
-  for (let param of query) {
+  for (let param of params) {
     queryString += queryString.length === 0 ? '?' : '&';
     queryString += `${param.key}=${param.value}`;
   }
