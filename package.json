@@ -1,12 +1,13 @@
 {
   "name": "query-string-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "vitest",
     "prebuild": "rimraf dist",
-    "build": "rollup src/index.js --file dist/index.js --format umd --name queryStringGenerator"
+    "build": "rollup src/index.js --file dist/index.js --format umd --name queryStringGenerator",
+    "postbuild": "cp src/index.d.ts dist/index.d.ts"
   },
   "repository": {
     "type": "git",
