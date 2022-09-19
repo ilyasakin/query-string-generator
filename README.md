@@ -1,4 +1,4 @@
-# query-stringify
+# query-string-generator
 
 ## Features
 * Yet another query stringifier that is fast, dead simple, and reliable.
@@ -7,17 +7,17 @@
 
 ### Installation
 ```bash
-npm install query-stringify
+npm install query-string-generator
 ```
 or
 ```bash
-yarn add query-stringify
+yarn add query-string-generator
 ```
 
-Import query-stringify and start using it however you want
+Import query-string-generator and start using it however you want
 
 ```js
-import { stringify } from 'query-stringify'; // or const { stringify } = require('query-stringify');
+import { stringify } from 'query-string-generator'; // or const { stringify } = require('query-string-generator');
 
 const URL = 'https://ilyasakin.dev';
 
